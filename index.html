@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Makebyr Studios - Estado del Proyecto</title>
+  <style>
+    /* RESET Y ESTILOS BASE */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body, html {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #ffffff;
+      color: #000000;
+    }
+
+    /* ESQUINA SUPERIOR IZQUIERDA DETALLADA (MARCA EN NEGRO Y AZUL) */
+    .brand-top-left {
+      position: absolute;
+      top: 40px;
+      left: 45px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .brand-title {
+      font-size: 2rem;
+      font-weight: 900;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+
+    .brand-sub {
+      font-size: 0.75rem;
+      color: #0055ff;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .badge-status {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 14px;
+      background: #f0f4ff;
+      border: 1px solid #0055ff;
+      color: #0055ff;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      width: fit-content;
+      text-transform: uppercase;
+    }
+
+    /* CONTENIDO PRINCIPAL CENTRADO Y LIMPIO */
+    .main-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .status-icon {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #000000;
+      font-weight: bold;
+    }
+
+    .status-title {
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: #000000;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 1.2;
+      margin-bottom: 18px;
+    }
+
+    .status-description {
+      font-size: 1rem;
+      color: #444444;
+      line-height: 1.6;
+      margin-bottom: 35px;
+      font-weight: 500;
+    }
+
+    /* BOTONES DE ACCIÓN (AZUL Y NEGRO) */
+    .action-group {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn-action {
+      background: #000000;
+      border: 2px solid #000000;
+      color: #ffffff;
+      padding: 14px 28px;
+      border-radius: 6px;
+      font-weight: 800;
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      text-transform: uppercase;
+    }
+
+    .btn-action:hover {
+      background: #111111;
+      transform: translateY(-2px);
+    }
+
+    .btn-blue {
+      background: #0055ff;
+      border-color: #0055ff;
+      color: #ffffff;
+    }
+
+    .btn-blue:hover {
+      background: #0044cc;
+      border-color: #0044cc;
+    }
+
+    /* FOOTER */
+    footer {
+      position: absolute;
+      bottom: 30px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.75rem;
+      color: #888888;
+      letter-spacing: 2px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- MARCA SUPERIOR IZQUIERDA EN AZUL Y NEGRO -->
+  <div class="brand-top-left">
+    <div class="brand-title">MAKEBYR</div>
+    <div class="brand-sub">STUDIOS & DEVELOPMENT</div>
+    <div class="badge-status">ESTADO DEL SISTEMA / AVISO OFICIAL</div>
+  </div>
+
+  <!-- MENSAJE CENTRADO SOBRE FONDO BLANCO -->
+  <div class="main-container">
+    <div class="status-icon">/ /</div>
+    <h1 class="status-title">PÁGINA INCORRECTA O PROYECTO DESCONTINUADO</h1>
+    <p class="status-description">
+      Esta sección no se encuentra disponible. El proyecto está pasando por una reestructuración o se encuentra <strong>PRÓXIMAMENTE EN MEJORA</strong> por el equipo de Makebyr.
+    </p>
+
+    <div class="action-group">
+      <a href="https://makebyr.github.io/" class="btn-action">VOLVER AL INICIO</a>
+      <a href="https://discord.gg/g7q4wrUtWc" target="_blank" class="btn-action btn-blue">DISCORD OFICIAL</a>
+    </div>
+  </div>
+
+  <footer>
+    MAKEBYR &copy; 2026 — TODOS LOS DERECHOS RESERVADOS
+  </footer>
+
+</body>
+</html>
